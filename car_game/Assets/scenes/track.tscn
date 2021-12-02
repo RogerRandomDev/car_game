@@ -1,0 +1,523 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/scenes/Car.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/scenes/road.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/scripts/minimap.gd" type="Script" id=3]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="road" parent="." instance=ExtResource( 2 )]
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+segment_spacing = 16384
+segment_max_offset = 1024
+
+[node name="Car" parent="." instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Camera2D" type="Camera2D" parent="Car"]
+current = true
+zoom = Vector2( 5, 5 )
+
+[node name="bots" type="Node2D" parent="."]
+
+[node name="Car2" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car3" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car4" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car5" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car6" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car7" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car8" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car9" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car10" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car11" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car12" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car13" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car14" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car15" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car16" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car17" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car18" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car19" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car20" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car21" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car22" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car23" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car24" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car25" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car26" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car27" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car28" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car29" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car30" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car31" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car32" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car33" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car34" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car35" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car36" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car37" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car38" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car39" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car40" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car41" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car42" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car43" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car44" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car45" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car46" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car47" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car48" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car49" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car50" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car51" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car52" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car53" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car54" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car55" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car56" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car57" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car58" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car59" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car60" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car61" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car62" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car63" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car64" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car65" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car66" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car67" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car68" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car69" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="Car70" parent="bots" instance=ExtResource( 1 )]
+position = Vector2( 153, 83 )
+max_speed = 4096
+turn_speed = 0.125
+traction = 5.0
+traction_loss = 0.5
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="minimap" type="Node2D" parent="UI" groups=[
+"minimap",
+]]
+position = Vector2( 896, 510 )
+scale = Vector2( 0.004, 0.004 )
+script = ExtResource( 3 )
+
+[node name="MinimapPath" type="Line2D" parent="UI/minimap"]
+width = 1024.0
+default_color = Color( 1, 1, 1, 1 )
